@@ -1,0 +1,84 @@
+
+ .carousel-item.active,
+ .carousel-item-next,
+ .carousel-item-prev {
+  display: flex;
+}
+
+/* large - display 6 */
+
+.slider-img {
+  height: 280px;
+  width: 220px;
+  overflow: hidden;
+  object-fit: fill;
+}
+
+.slider-title {
+  
+  height: 40px;
+  width: 220px;
+  background-color: #fbe540;
+  overflow: hidden;
+  font-size: 20px;
+  text-transform: capitalize;
+  margin: 0 0 7px;
+}
+
+.slider-title a{
+  color: #820554;
+  text-decoration: none;
+  transition: all 50ms;
+}
+.slider-title:hover{
+  background-color: #820554;  
+ -webkit-text-fill-color: #ffffff;
+
+  
+}
+
+.carousel-item .rating{
+  padding: 0;
+  margin: 0 0 7px;
+  list-style: none;
+}
+.carousel-item .rating li{
+  color: #820554;
+  font-size: 12px;
+  display: inline-block;
+}
+
+
+.carousel-item  .title{
+  color: #820554;
+  font-size: 20px;
+  text-transform: capitalize;
+  margin: 0 0 7px;
+}
+.carousel-item  .title a{
+  color: #820554;
+  transition: all 500ms;
+}
+.carousel-item  .title a:hover{ color:  #820554; }
+
+
+
+.carousel-item .prices {
+  color:  #820554;
+  font-size: 18px;
+  letter-spacing: 0.005em;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+.carousel-item .prices span{
+  color: #a7a7a7;
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: line-through;
+}
+
+@media only screen and (max-width:990px)and (min-width: 400px){
+  .carousel-size{
+    width: 100%;
+  }
+}
