@@ -21,7 +21,7 @@
       
 
     <nav class="navbar navbar-expand-lg">
-      <a class="navbar-brand" href="#">Ecomm</a>
+      <a class="navbar-brand" href="#"><img src="images/ab.png" alt="logo_image"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navToggle" aria-controls="navToggle" aria-expanded="false" aria-label="Toggle navigation">
         <span><i class="fa-solid fa-bars togglemenu"></i></span>
       </button>
@@ -60,22 +60,39 @@
         </div>
 
         <!--user, wishlist, shopping cart area  -->
-        <div class="icons">
+        <div class="dropdown">
+        <i class="fa-solid fa-cart-shopping"></i>
+       
+          <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">
+                <i class="fa-solid fa-user"></i>
+                </button>
+                <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Log In</a>
+                <a class="dropdown-item" href="#">Sign Up</a>
+        </div>
+    
+  </div>
+
+        <!-- <div class="icons">
           <i class="fa-solid fa-user icon-user">
-            <div class="user_area">
+            <di class="user_area">
               <a href="#">Log In</a> <br />
               <a href="#">Sign Up</a><br />
-              <!--
+              
           <a href="#">Log Out</a> <br>
-          <a href="#">Dashbourd</a>
-          -->
-            </div>
+          <a href="#">Dashbourd</a> 
+          
+            </di>
           </i>
           <i class="fa-solid fa-cart-shopping"></i>
           <i class="fa-solid fa-heart"></i>
-        </div>
+        </div> -->
       </div>
     </nav>
   </div>
 </div>
 <!--navbar end  -->
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"></script>

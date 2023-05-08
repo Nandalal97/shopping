@@ -1,5 +1,5 @@
 <?php
-include 'header.php';
+include 'head1.php';
  ?>
 
 
@@ -7,10 +7,10 @@ include 'header.php';
     
     <!--manin area start -->
 
-  <div class="main_contain">
+  <div class="container">
 
     <!-- header slider -->
-    <div id="demo" class="carousel slide" data-ride="carousel">
+    <div id="demo" class="carousel slide my-4" data-ride="carousel">
 
       <!-- Indicators -->
       <ul class="carousel-indicators">
@@ -40,8 +40,8 @@ include 'header.php';
         <span class="carousel-control-next-icon"></span>
       </a>
     </div>
-    <!--header slider end-->
-
+    <!--header slider end -->
+    
    <!--products -->
     <div class="product_box">
 
