@@ -14,7 +14,11 @@
   
 <body>
     <!--navbar start -->
-  <header>
+    
+ 
+
+  <header class="body_contain">
+  <div class="container">
   <div class="body_contain">
       <div class="main_contain">
 
@@ -90,6 +94,7 @@
       </div>
     </nav>
   </div>
+</div>
 </div>
 <!--navbar end  -->
 
