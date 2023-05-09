@@ -3,7 +3,7 @@ include 'head1.php';
  ?>
 
 
-</header>
+
     
     <!--manin area start -->
 
