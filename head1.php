@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -9,9 +11,16 @@
     <link rel="stylesheet" href="contact.css">
     <link rel="stylesheet" href="css/cart.css">
     <link rel="stylesheet" href="css/user.css">
-
     <link rel="stylesheet" href="css/style.css" />
     <title>Document</title>
+
+    <style>
+      /* for contact from */
+textarea {
+	resize: none;
+}
+/* contact from end */
+    </style>
   </head>
   
 <body>
@@ -55,7 +64,8 @@
                 </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">contact</a>
+            <a class="btn" data-toggle="modal" data-target="#exampleModal">contact</a>
+             
           </li>
         </ul>
 
@@ -80,20 +90,7 @@
     
   </div>
 
-        <!-- <div class="icons">
-          <i class="fa-solid fa-user icon-user">
-            <di class="user_area">
-              <a href="#">Log In</a> <br />
-              <a href="#">Sign Up</a><br />
-              
-          <a href="#">Log Out</a> <br>
-          <a href="#">Dashbourd</a> 
-          
-            </di>
-          </i>
-          <i class="fa-solid fa-cart-shopping"></i>
-          <i class="fa-solid fa-heart"></i>
-        </div> -->
+        
       </div>
     </nav>
   </div>
@@ -102,6 +99,86 @@
 
 </div>
 </header>
+
+
+<!-- Button trigger modal -->
+
+
+<!-- Modal -->
+<div class="modal fade mt-5" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title" id="exampleModalLabel">Contact Us</h2>
+        
+      
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      <div class="contact-form">
+			<form action="" method="post">
+					<div class="form-group">
+						<div class="input-group">
+							<div class="input-group-prepend">
+								<span class="input-group-text">
+									<span class="fa fa-user"></span>
+								</span>                    
+							</div>
+							<input type="text" class="form-control" name="name" placeholder="Full Name*" >
+							
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="input-group">
+							<div class="input-group-prepend">
+								<span class="input-group-text">
+								<i class="fa fa-phone" aria-hidden="true"></i>
+								</span>                    
+							</div>
+							<input type="text" class="form-control" name="phoneNumber" placeholder="Phone Number*" maxlength="10" minlength="10" >
+							
+						</div>
+					</div>
+
+					<div class="form-group">
+						<div class="input-group">
+							<div class="input-group-prepend">
+								<span class="input-group-text">
+									<i class="fa fa-envelope" aria-hidden="true"></i>
+								</span>                    
+							</div>
+							<input type="email" class="form-control" name="email" placeholder="Email Address*" >
+							
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="input-group">
+							<div class="input-group-prepend">
+								<!-- <span class="input-group-text"> -->
+									<!-- <i class="fa fa-lock"></i> -->
+								</span>                    
+							</div>
+							<textarea rows="4" cols="50" name="message"  placeholder="Your Message"></textarea>
+							
+						</div>
+					</div>
+					
+					<div class="form-group">
+							<button type="submit" class="btn btn-primary btn-block">Submit</button>
+					</div>
+					
+			</form>
+		<!-- <div class="text-center">Already have an account? <a href="#">Login here</a></div> -->
+		</div>
+	</div>
+	
+      </div>
+
+    </div>
+  </div>
+</div>
 <!--navbar end  -->
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>

@@ -1,7 +1,9 @@
 <?php
 include 'head1.php';
  ?>
-
+<style>
+  
+</style>
 
 
     
@@ -28,7 +30,7 @@ include 'head1.php';
           <img src="https://static.vecteezy.com/system/resources/previews/004/299/835/original/online-shopping-on-phone-buy-sell-business-digital-web-banner-application-money-advertising-payment-ecommerce-illustration-search-free-vector.jpg" alt="Chicago" >
         </div>
         <div class="carousel-item">
-          <img src="https://img.freepik.com/free-vector/template-banner-online-store-with-shopping-cart-with-purchases-boxes-delivery-from-supermarket-vector-illustration_548887-104.jpg?w=2000" alt="New York">
+          <img src="https://png.pngtree.com/png-clipart/20210620/original/pngtree-blue-grocery-store-online-shopping-banner-template-png-image_6439141.jpg" alt="New York">
         </div>
       </div>
       
@@ -67,7 +69,7 @@ include 'head1.php';
                     <div class="price">&#8377;500</div>
                     <div class="product-button-group">
                         <a class="product-like-icon" href="#"><i class="fas fa-heart"></i></a>
-                        <a class="add-to-cart" href="#"><i class="fa fa-shopping-bag"></i>ADD TO CART</a>
+                        <a class="add-to-cart" href="#"><i class="fa fa-shopping-bag"></i> ADD TO CART</a>
                         <a class="product-compare-icon" href="#"><i class="fas fa-random"></i></a>
                     </div>
                 </div>
