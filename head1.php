@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="contact.css">
     <link rel="stylesheet" href="css/cart.css">
+    <link rel="stylesheet" href="css/user.css">
+
     <link rel="stylesheet" href="css/style.css" />
     <title>Document</title>
   </head>
@@ -17,7 +19,8 @@
     
  
 
-  <header class="body_contain">
+  <header>
+    <div class="body_contain">
   <div class="container">
   <div class="body_contain">
       <div class="main_contain">
@@ -71,8 +74,8 @@
                 <i class="fa-solid fa-user"></i>
                 </button>
                 <div class="dropdown-menu">
-                <a class="dropdown-item" href="#">Log In</a>
-                <a class="dropdown-item" href="#">Sign Up</a>
+                <a class="dropdown-item" href="login.php">Log In</a>
+                <a class="dropdown-item" href="signup.php">Sign Up</a>
         </div>
     
   </div>
@@ -95,6 +98,8 @@
     </nav>
   </div>
 </div>
+</div>
+
 </div>
 <!--navbar end  -->
 
