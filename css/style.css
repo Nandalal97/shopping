@@ -7,6 +7,8 @@
   --main-color1: #eb4d4b;
   --text-color: #820554;
   --cart-color: #fbe540;
+  --buy-color: #f59f35;
+  --buyHover-color: #8711d5;
 }
 .body_contain{
   width: 100%;
@@ -112,7 +114,7 @@ margin-right: 50px;
 }
 .product-grid .product-image
 { position: relative; 
-
+  overflow: hidden;
 }
 .product-grid .product-image a.image{
    display: block; 
@@ -181,8 +183,8 @@ margin-right: 50px;
 .product-grid .add-to-cart{
   color: var(--text-color);
   background: var(--cart-color);
-  font-size: 14px;
-  width: calc(100% - 75px);
+  font-size: 12px;
+  width: calc(50% - 35px);
   padding: 8px 3px;
   margin: 0 auto;
   display: inline-block;
@@ -202,6 +204,37 @@ margin-right: 50px;
   display: inline-block;
   visibility: visible;
 }
+
+ /* added buy now */
+ .product-grid .buynow{
+  color: var(--text-color);
+  background: var(--buy-color);
+  font-size: 12px;
+  width: calc(50% - 35px);
+  padding: 8px 3px;
+  margin: 0 auto;
+  display: inline-block;
+  transition: all 0.25s ease 0s;
+}
+.product-grid .buynow i{
+  margin-right: 8px;
+  display: none;
+  visibility: hidden;
+  transition: all 0.25s ease 0s;
+}
+.product-grid:hover .buynow{
+  color:#fff;
+  background: var(--buyHover-color);
+}
+.product-grid:hover .buynow i{
+  display: inline-block;
+  visibility: visible;
+}
+
+
+
+
+
 .product-grid .product-like-icon,
 .product-grid .product-compare-icon{
   color: var(--text-color);

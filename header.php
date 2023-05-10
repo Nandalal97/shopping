@@ -63,8 +63,8 @@
         <div class="icons">
           <i class="fa-solid fa-user icon-user">
             <div class="user_area">
-              <a href="#">Log In</a> <br />
-              <a href="#">Sign Up</a><br />
+              <a href="login.php">Log In</a> <br />
+              <a href="login.php">Sign Up</a><br />
               <!--
           <a href="#">Log Out</a> <br>
           <a href="#">Dashbourd</a>

@@ -67,7 +67,8 @@ include 'header.php';
                     <div class="price">&#8377;500</div>
                     <div class="product-button-group">
                         <a class="product-like-icon" href="#"><i class="fas fa-heart"></i></a>
-                        <a class="add-to-cart" href="#"><i class="fa fa-shopping-bag"></i>ADD TO CART</a>
+                        <a class="buynow" href="single-product.php"><i class="fa fa-shopping-bag"></i>BUY</a>
+                        <a class="add-to-cart" href="#"><i class="fa fa-shopping-cart"></i>ADD TO CART</a>
                         <a class="product-compare-icon" href="#"><i class="fas fa-random"></i></a>
                     </div>
                 </div>
@@ -93,7 +94,8 @@ include 'header.php';
                     <div class="price">&#8377; 600</div>
                     <div class="product-button-group">
                         <a class="product-like-icon" href="#"><i class="fas fa-heart"></i></a>
-                        <a class="add-to-cart" href="#"><i class="fa fa-shopping-bag"></i>ADD TO CART</a>
+                        <a class="buynow" href="single-product.php"><i class="fa fa-shopping-bag"></i>BUY</a>
+                        <a class="add-to-cart" href="#"><i class="fa fa-shopping-cart"></i>ADD TO CART</a>
                         <a class="product-compare-icon" href="#"><i class="fas fa-random"></i></a>
                     </div>
                 </div>
@@ -119,7 +121,8 @@ include 'header.php';
                     <div class="price">&#8377;600</div>
                     <div class="product-button-group">
                         <a class="product-like-icon" href="#"><i class="fas fa-heart"></i></a>
-                        <a class="add-to-cart" href="#"><i class="fa fa-shopping-bag"></i>ADD TO CART</a>
+                        <a class="buynow" href="single-product.php"><i class="fa fa-shopping-bag"></i>BUY</a>
+                        <a class="add-to-cart" href="#"><i class="fa fa-shopping-cart"></i>ADD TO CART</a>
                         <a class="product-compare-icon" href="#"><i class="fas fa-random"></i></a>
                     </div>
                 </div>
@@ -145,7 +148,8 @@ include 'header.php';
                     <div class="price">&#8377; 650</div>
                     <div class="product-button-group">
                         <a class="product-like-icon" href="#"><i class="fas fa-heart"></i></a>
-                        <a class="add-to-cart" href="#"><i class="fa fa-shopping-bag"></i>ADD TO CART</a>
+                        <a class="buynow" href="single-product.php"><i class="fa fa-shopping-bag"></i>BUY</a>
+                        <a class="add-to-cart" href="#"><i class="fa fa-shopping-cart"></i>ADD TO CART</a>
                         <a class="product-compare-icon" href="#"><i class="fas fa-random"></i></a>
                     </div>
                 </div>
@@ -171,7 +175,8 @@ include 'header.php';
                     <div class="price">&#8377; 650</div>
                     <div class="product-button-group">
                         <a class="product-like-icon" href="#"><i class="fas fa-heart"></i></a>
-                        <a class="add-to-cart" href="#"><i class="fa fa-shopping-bag"></i>ADD TO CART</a>
+                        <a class="buynow" href="single-product.php"><i class="fa fa-shopping-bag"></i>BUY</a>
+                        <a class="add-to-cart" href="#"><i class="fa fa-shopping-cart"></i>ADD TO CART</a>
                         <a class="product-compare-icon" href="#"><i class="fas fa-random"></i></a>
                     </div>
                 </div>
@@ -197,7 +202,8 @@ include 'header.php';
                     <div class="price">&#8377; 562</div>
                     <div class="product-button-group">
                         <a class="product-like-icon" href="#"><i class="fas fa-heart"></i></a>
-                        <a class="add-to-cart" href="#"><i class="fa fa-shopping-bag"></i>ADD TO CART</a>
+                        <a class="buynow" href="single-product.php"><i class="fa fa-shopping-bag"></i>BUY</a>
+                        <a class="add-to-cart" href="#"><i class="fa fa-shopping-cart"></i>ADD TO CART</a>
                         <a class="product-compare-icon" href="#"><i class="fas fa-random"></i></a>
                     </div>
                 </div>
@@ -223,7 +229,8 @@ include 'header.php';
                     <div class="price">&#8377; 720</div>
                     <div class="product-button-group">
                         <a class="product-like-icon" href="#"><i class="fas fa-heart"></i></a>
-                        <a class="add-to-cart" href="#"><i class="fa fa-shopping-bag"></i>ADD TO CART</a>
+                        <a class="buynow" href="single-product.php"><i class="fa fa-shopping-bag"></i>BUY</a>
+                        <a class="add-to-cart" href="#"><i class="fa fa-shopping-cart"></i>ADD TO CART</a>
                         <a class="product-compare-icon" href="#"><i class="fas fa-random"></i></a>
                     </div>
                 </div>
@@ -249,7 +256,8 @@ include 'header.php';
                     <div class="price">&#8377; 820</div>
                     <div class="product-button-group">
                         <a class="product-like-icon" href="#"><i class="fas fa-heart"></i></a>
-                        <a class="add-to-cart" href="#"><i class="fa fa-shopping-bag"></i>ADD TO CART</a>
+                        <a class="buynow" href="single-product.php"><i class="fa fa-shopping-bag"></i>BUY</a>
+                        <a class="add-to-cart" href="#"><i class="fa fa-shopping-cart"></i>ADD TO CART</a>
                         <a class="product-compare-icon" href="#"><i class="fas fa-random"></i></a>
                     </div>
                 </div>
@@ -275,7 +283,8 @@ include 'header.php';
                     <div class="price">&#8377; 660</div>
                     <div class="product-button-group">
                         <a class="product-like-icon" href="#"><i class="fas fa-heart"></i></a>
-                        <a class="add-to-cart" href="#"><i class="fa fa-shopping-bag"></i>ADD TO CART</a>
+                        <a class="buynow" href="single-product.php"><i class="fa fa-shopping-bag"></i>BUY</a>
+                        <a class="add-to-cart" href="#"><i class="fa fa-shopping-cart"></i>ADD TO CART</a>
                         <a class="product-compare-icon" href="#"><i class="fas fa-random"></i></a>
                     </div>
                 </div>
@@ -301,7 +310,8 @@ include 'header.php';
                     <div class="price">&#8377; 860</div>
                     <div class="product-button-group">
                         <a class="product-like-icon" href="#"><i class="fas fa-heart"></i></a>
-                        <a class="add-to-cart" href="#"><i class="fa fa-shopping-bag"></i>ADD TO CART</a>
+                        <a class="buynow" href="single-product.php"><i class="fa fa-shopping-bag"></i>BUY</a>
+                        <a class="add-to-cart" href="#"><i class="fa fa-shopping-cart"></i>ADD TO CART</a>
                         <a class="product-compare-icon" href="#"><i class="fas fa-random"></i></a>
                     </div>
                 </div>
@@ -326,7 +336,8 @@ include 'header.php';
                     <div class="price">&#8377; 800</div>
                     <div class="product-button-group">
                         <a class="product-like-icon" href="#"><i class="fas fa-heart"></i></a>
-                        <a class="add-to-cart" href="#"><i class="fa fa-shopping-bag"></i>ADD TO CART</a>
+                        <a class="buynow" href="single-product.php"><i class="fa fa-shopping-bag"></i>BUY</a>
+                        <a class="add-to-cart" href="#"><i class="fa fa-shopping-cart"></i>ADD TO CART</a>
                         <a class="product-compare-icon" href="#"><i class="fas fa-random"></i></a>
                     </div>
                 </div>
@@ -352,7 +363,8 @@ include 'header.php';
                     <div class="price">&#8377;780</div>
                     <div class="product-button-group">
                         <a class="product-like-icon" href="#"><i class="fas fa-heart"></i></a>
-                        <a class="add-to-cart" href="#"><i class="fa fa-shopping-bag"></i>ADD TO CART</a>
+                        <a class="buynow" href="single-product.php"><i class="fa fa-shopping-bag"></i>BUY</a>
+                        <a class="add-to-cart" href="#"><i class="fa fa-shopping-cart"></i>ADD TO CART</a>
                         <a class="product-compare-icon" href="#"><i class="fas fa-random"></i></a>
                     </div>
                 </div>
