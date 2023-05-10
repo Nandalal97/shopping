@@ -1,9 +1,7 @@
 <?php
-include 'head1.php';
+include 'header.php';
  ?>
-<style>
-  
-</style>
+
 
 
     
@@ -30,7 +28,7 @@ include 'head1.php';
           <img src="https://static.vecteezy.com/system/resources/previews/004/299/835/original/online-shopping-on-phone-buy-sell-business-digital-web-banner-application-money-advertising-payment-ecommerce-illustration-search-free-vector.jpg" alt="Chicago" >
         </div>
         <div class="carousel-item">
-          <img src="https://png.pngtree.com/png-clipart/20210620/original/pngtree-blue-grocery-store-online-shopping-banner-template-png-image_6439141.jpg" alt="New York">
+          <img src="images/slider4.jpg">
         </div>
       </div>
       
@@ -365,7 +363,7 @@ include 'head1.php';
     </div>
 </div>
 <!-- products Slider  -->
-    
+
 
 <!-- Footer section -->
 

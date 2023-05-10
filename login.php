@@ -1,5 +1,5 @@
 <?php
-include 'head1.php';
+include 'header.php';
  ?>
 
 <?php 
@@ -78,7 +78,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
               <label class="float-left form-check-label"><input type="checkbox"> Remember me</label>
               <a href="#" class="float-right">Forgot Password?</a>
           </div> <br>
-          <div class="text-center small">Don't have an account! <a href="#">Sign Up</a></div>       
+          <div class="text-center small">Don't have an account! <a href="signup.php">Sign Up</a></div>       
       </form>
       <!-- <p class="text-center small">Don't have an account! <a href="#">Sign up here</a>.</p> -->
     </div>

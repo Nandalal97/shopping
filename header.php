@@ -20,10 +20,44 @@ textarea {
 	resize: none;
 }
 /* contact from end */
+
     </style>
   </head>
+<?php
+
+if ($_SERVER["REQUEST_METHOD"] == "POST"){
+  include("database.php");
+  $name=$_POST['name'];
+  $email=$_POST['email'];
+  $phone=$_POST['phoneNumber'];
+  $message=$_POST['message'];
+
+  $sql = "insert into contact (name, email, number, message, date_time) values ('$name', '$email', '$phone', '$message',  current_timestamp())";
+  $result = mysqli_query($conn,$sql);
+
+  if($result==true){
+    echo "<script>alert('Your Request Submited');</script>";
+  }
+
+  else{
+     echo "<script>alert('Your Request Fail');</script>";
+  }
+
+
+}
+
+
+?>
+
+
+
   
 <body>
+
+<!-- prreloder section -->
+
+
+
     <!--navbar start -->
     
  
@@ -37,7 +71,7 @@ textarea {
       
 
     <nav class="navbar navbar-expand-lg">
-      <a class="navbar-brand" href="#"><img src="images/ab.png" alt="logo_image"></a>
+      <a class="navbar-brand active" href="index.php"><img src="images/ab.png" alt="logo_image"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navToggle" aria-controls="navToggle" aria-expanded="false" aria-label="Toggle navigation">
         <span><i class="fa-solid fa-bars togglemenu"></i></span>
       </button>
@@ -45,28 +79,28 @@ textarea {
       <div class="collapse navbar-collapse" id="navToggle">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <!-- <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a> -->
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">About</a>
-          </li>
-
-          <!-- dropdown area -->
-
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Shop</a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">All Products</a>
-                  <a class="dropdown-item" href="#">Ladies</a>
-                  <a class="dropdown-item" href="#">Mens</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </div>
           </li>
           <li class="nav-item">
             <a class="btn" data-toggle="modal" data-target="#exampleModal">contact</a>
              
           </li>
+          <!-- dropdown area -->
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Shop</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <!-- <a class="dropdown-item" href="#">All Products</a> -->
+                  <a class="dropdown-item" href="#">Ladies</a>
+                  <a class="dropdown-item" href="#">Mens</a>
+                  <div class="dropdown-divider"></div>
+                  <!-- <a class="dropdown-item" href="#">Something else here</a> -->
+                </div>
+          </li>
+          
         </ul>
 
         <!--searh box area -->
@@ -126,7 +160,7 @@ textarea {
 									<span class="fa fa-user"></span>
 								</span>                    
 							</div>
-							<input type="text" class="form-control" name="name" placeholder="Full Name*" >
+							<input type="text" class="form-control" name="name" placeholder="Full Name*" required >
 							
 						</div>
 					</div>
@@ -137,7 +171,7 @@ textarea {
 								<i class="fa fa-phone" aria-hidden="true"></i>
 								</span>                    
 							</div>
-							<input type="text" class="form-control" name="phoneNumber" placeholder="Phone Number*" maxlength="10" minlength="10" >
+							<input type="text" class="form-control" name="phoneNumber" placeholder="Phone Number*" maxlength="10" minlength="10"  required >
 							
 						</div>
 					</div>
@@ -149,7 +183,7 @@ textarea {
 									<i class="fa fa-envelope" aria-hidden="true"></i>
 								</span>                    
 							</div>
-							<input type="email" class="form-control" name="email" placeholder="Email Address*" >
+							<input type="email" class="form-control" name="email" placeholder="Email Address*" required >
 							
 						</div>
 					</div>
@@ -160,7 +194,7 @@ textarea {
 									<!-- <i class="fa fa-lock"></i> -->
 								</span>                    
 							</div>
-							<textarea rows="4" cols="50" name="message"  placeholder="Your Message"></textarea>
+							<textarea rows="4" cols="70" name="message"  placeholder="Your Message" required></textarea>
 							
 						</div>
 					</div>
@@ -184,3 +218,7 @@ textarea {
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"></script>
+   
+
+      
+    

@@ -1,5 +1,5 @@
 <?php
-include 'head1.php';
+include 'header.php';
  ?>
 <?php 
 $emailErr="";
@@ -139,7 +139,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
 					<div class="form-group">
 							<button type="submit" class="btn btn-primary btn-block">Sign Up</button>
 					</div>
-					<div class="text-left">Already have an account? <a href="#">LogIn</a></div>
+					<div class="text-left">Already have an account? <a href="login.php">LogIn</a></div>
 			</form>
 		<!-- <div class="text-center">Already have an account? <a href="#">Login here</a></div> -->
 		</div>

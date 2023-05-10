@@ -1,6 +1,6 @@
   
 <?php
-include 'head1.php';
+include 'header.php';
  ?>
 
 <link rel="stylesheet" href="css/bootstrap.css" />
